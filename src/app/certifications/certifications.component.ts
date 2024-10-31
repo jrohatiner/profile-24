@@ -150,7 +150,7 @@ interface Certification {
 export class CertificationsComponent {
   certifications: Certification[] = [
     {
-      name: 'Google Cloud Professional Cloud Architect',
+      name: 'Google Professional Cloud Architect',
       issuer: 'Google Cloud',
       date: 'Jan 2023',
       expiryDate: 'Jan 2025',
@@ -158,20 +158,68 @@ export class CertificationsComponent {
       logo: 'https://www.gstatic.com/devrel-devsite/prod/v2f6fb68338062e7c16672db62c4ab042dcb9bfbacf2fa51b6959426b203a4d8a/cloud/images/cloud-logo.svg'
     },
     {
-      name: 'AWS Certified Solutions Architect',
-      issuer: 'Amazon Web Services',
+      name: 'Digital Cloud Leader',
+      issuer: 'Google',
       date: 'Mar 2023',
       expiryDate: 'Mar 2026',
       credentialId: 'AWS-CSA-2023-002',
-      logo: 'https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png'
+      logo: ''
     },
     {
-      name: 'Microsoft Azure Solutions Architect',
-      issuer: 'Microsoft',
+      name: 'Kubernetes',
+      issuer: 'Google',
       date: 'Jun 2023',
       expiryDate: 'Jun 2025',
       credentialId: 'MS-ASA-2023-003',
-      logo: 'https://learn.microsoft.com/azure/media/index/azure.svg'
+      logo: ''
+    },
+    {
+      name: 'Google Professional Cloud Architect',
+      issuer: 'Google Cloud',
+      date: 'Jan 2023',
+      expiryDate: 'Jan 2025',
+      credentialId: 'GCP-PCA-2023-001',
+      logo: 'https://www.gstatic.com/devrel-devsite/prod/v2f6fb68338062e7c16672db62c4ab042dcb9bfbacf2fa51b6959426b203a4d8a/cloud/images/cloud-logo.svg'
+    },
+    {
+      name: 'Digital Cloud Leader',
+      issuer: 'Google',
+      date: 'Mar 2023',
+      expiryDate: 'Mar 2026',
+      credentialId: 'AWS-CSA-2023-002',
+      logo: ''
+    },
+    {
+      name: 'Kubernetes',
+      issuer: 'Google',
+      date: 'Jun 2023',
+      expiryDate: 'Jun 2025',
+      credentialId: 'MS-ASA-2023-003',
+      logo: ''
+    },
+    {
+      name: 'Google Professional Cloud Architect',
+      issuer: 'Google Cloud',
+      date: 'Jan 2023',
+      expiryDate: 'Jan 2025',
+      credentialId: 'GCP-PCA-2023-001',
+      logo: 'https://www.gstatic.com/devrel-devsite/prod/v2f6fb68338062e7c16672db62c4ab042dcb9bfbacf2fa51b6959426b203a4d8a/cloud/images/cloud-logo.svg'
+    },
+    {
+      name: 'Digital Cloud Leader',
+      issuer: 'Google',
+      date: 'Mar 2023',
+      expiryDate: 'Mar 2026',
+      credentialId: 'AWS-CSA-2023-002',
+      logo: ''
+    },
+    {
+      name: 'Kubernetes',
+      issuer: 'Google',
+      date: 'Jun 2023',
+      expiryDate: 'Jun 2025',
+      credentialId: 'MS-ASA-2023-003',
+      logo: ''
     }
   ];
 }
