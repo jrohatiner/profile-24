@@ -15,23 +15,23 @@ import { RouterLink } from '@angular/router';
 
       <section class="features">
         <div class="feature-card" routerLink="/projects">
-          <h3>Projects</h3>
+          <h3 class="FP-btn">Projects</h3>
           <p classs="fpg-text">see more</p>
         </div>
         <div class="feature-card" routerLink="/skills">
-          <h3>Skills</h3>
+          <h3 class="FP-btn">Skills</h3>
           <p classs="fpg-text">see more</p>
         </div>
         <div class="feature-card" routerLink="/certifications">
-          <h3>Certifications</h3>
+          <h3 class="FP-btn">Certifications</h3>
           <p classs="fpg-text">see more</p>
         </div>
         <div class="feature-card" routerLink="/cv">
-          <h3>CV</h3>
+          <h3 class="FP-btn">CV</h3>
           <p classs="fpg-text">read more</p>
         </div>
         <div class="feature-card" routerLink="/contact">
-          <h3>Contact</h3>
+          <h3 class="FP-btn">Contact</h3>
           <p classs="fpg-text">get in touch</p>
         </div>
       </section>
@@ -54,7 +54,12 @@ import { RouterLink } from '@angular/router';
       color: #1976d2;
       margin-bottom: 1rem;
     }
-
+    h3.FP-btn {
+      text-transform: uppercase;
+    }
+    p.fpg-text {
+      text-transform: lowercase;
+    }
     .subtitle {
       font-size: 1.2rem;
       color: #666;
