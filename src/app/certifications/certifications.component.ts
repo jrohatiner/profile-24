@@ -19,13 +19,15 @@ interface Certification {
     <div class="certifications-container">
       <header>
         <h1>Professional Certifications</h1>
-        <a routerLink="/" class="back-link">← Back to Home</a>
+        <a routerLink="/" class="back-link">←Back to Home</a>
       </header>
 
       <div class="certifications-grid">
         <article class="certification-card" *ngFor="let cert of certifications">
           <div class="cert-header">
-            <img [src]="cert.logo" [alt]="cert.issuer + ' logo'" class="cert-logo">
+          <div><i class="fa-brands fa-google"></i></div>
+            <img [src]="cert.logo" [alt]=" + ' '" class="cert-logo">
+           
             <div class="cert-issuer">{{ cert.issuer }}</div>
           </div>
           
@@ -43,7 +45,7 @@ interface Certification {
             </div>
           </div>
 
-          <a href="#" class="verify-link">Verify Certificate →</a>
+          <a href="https://www.cloudskillsboost.google/public_profiles/780e6916-6de8-4795-804e-dbbb5832b15a" class="verify-link">Verify Certificate →</a>
         </article>
       </div>
     </div>
@@ -105,8 +107,7 @@ interface Certification {
     .cert-logo {
       width: 48px;
       height: 48px;
-      object-fit: contain;
-      margin-right: 1rem;
+      /* margin-right: 1rem; */
     }
 
     .cert-issuer {
@@ -151,75 +152,99 @@ export class CertificationsComponent {
   certifications: Certification[] = [
     {
       name: 'Google Professional Cloud Architect',
-      issuer: 'Google Cloud',
+      issuer: '',
       date: 'Jan 2023',
       expiryDate: 'Jan 2025',
       credentialId: 'GCP-PCA-2023-001',
-      logo: 'https://www.gstatic.com/devrel-devsite/prod/v2f6fb68338062e7c16672db62c4ab042dcb9bfbacf2fa51b6959426b203a4d8a/cloud/images/cloud-logo.svg'
+      logo: ''
     },
     {
       name: 'Digital Cloud Leader',
-      issuer: 'Google',
-      date: 'Mar 2023',
-      expiryDate: 'Mar 2026',
-      credentialId: 'AWS-CSA-2023-002',
-      logo: ''
+      issuer: '',
+      date: 'June 2024',
+      expiryDate: 'June 2026',
+      credentialId: 'aa0aea84ead54bb79364256778c2b7c8',
+      logo: 'https://www.gstatic.com/devrel-devsite/prod/v2f6fb68338062e7c16672db62c4ab042dcb9bfbacf2fa51b6959426b203a4d8a/cloud/images/cloud-logo.svg'
     },
     {
       name: 'Kubernetes',
-      issuer: 'Google',
-      date: 'Jun 2023',
-      expiryDate: 'Jun 2025',
-      credentialId: 'MS-ASA-2023-003',
-      logo: ''
+      issuer: '',
+      date: 'Aug 2024',
+      expiryDate: 'Aug 2026',
+      credentialId: 'GCP-3993335',
+      logo: 'https://www.gstatic.com/devrel-devsite/prod/v2f6fb68338062e7c16672db62c4ab042dcb9bfbacf2fa51b6959426b203a4d8a/cloud/images/cloud-logo.svg'
     },
     {
       name: 'Google Professional Cloud Architect',
-      issuer: 'Google Cloud',
+      issuer: 'Cloud',
       date: 'Jan 2023',
       expiryDate: 'Jan 2025',
       credentialId: 'GCP-PCA-2023-001',
       logo: 'https://www.gstatic.com/devrel-devsite/prod/v2f6fb68338062e7c16672db62c4ab042dcb9bfbacf2fa51b6959426b203a4d8a/cloud/images/cloud-logo.svg'
     },
     {
-      name: 'Digital Cloud Leader',
-      issuer: 'Google',
-      date: 'Mar 2023',
-      expiryDate: 'Mar 2026',
-      credentialId: 'AWS-CSA-2023-002',
-      logo: ''
-    },
-    {
-      name: 'Kubernetes',
-      issuer: 'Google',
-      date: 'Jun 2023',
-      expiryDate: 'Jun 2025',
-      credentialId: 'MS-ASA-2023-003',
-      logo: ''
-    },
-    {
-      name: 'Google Professional Cloud Architect',
-      issuer: 'Google Cloud',
-      date: 'Jan 2023',
-      expiryDate: 'Jan 2025',
-      credentialId: 'GCP-PCA-2023-001',
+      name: 'Terraform',
+      issuer: '',
+      date: 'Oct 2024',
+      expiryDate: 'Oct 2026',
+      credentialId: 'GCP-CSA-2023-002',
       logo: 'https://www.gstatic.com/devrel-devsite/prod/v2f6fb68338062e7c16672db62c4ab042dcb9bfbacf2fa51b6959426b203a4d8a/cloud/images/cloud-logo.svg'
     },
     {
-      name: 'Digital Cloud Leader',
-      issuer: 'Google',
-      date: 'Mar 2023',
-      expiryDate: 'Mar 2026',
-      credentialId: 'AWS-CSA-2023-002',
-      logo: ''
+      name: 'Machine Learning',
+      issuer: '',
+      date: 'July 2023',
+      expiryDate: 'Jun 2025',
+      credentialId: 'GCP-4232331',
+      logo: 'https://www.gstatic.com/devrel-devsite/prod/v2f6fb68338062e7c16672db62c4ab042dcb9bfbacf2fa51b6959426b203a4d8a/cloud/images/cloud-logo.svg'
     },
     {
-      name: 'Kubernetes',
-      issuer: 'Google',
+      name: 'Tensorflow on Google Cloud',
+      issuer: '',
+      date: 'July 2023',
+      expiryDate: 'July 2025',
+      credentialId: 'GCP-4373876',
+      logo: 'https://www.gstatic.com/devrel-devsite/prod/v2f6fb68338062e7c16672db62c4ab042dcb9bfbacf2fa51b6959426b203a4d8a/cloud/images/cloud-logo.svg'
+    },
+    {
+      name: 'Application Development in Cloud Run',
+      issuer: '',
+      date: 'June 2023',
+      expiryDate: 'June 2026',
+      credentialId: 'GCP-3814407',
+      logo: 'https://www.gstatic.com/devrel-devsite/prod/v2f6fb68338062e7c16672db62c4ab042dcb9bfbacf2fa51b6959426b203a4d8a/cloud/images/cloud-logo.svg'
+    },
+    {
+      name: 'Google Cloud Big Data & Machine Learning Fundamentals',
+      issuer: '',
       date: 'Jun 2023',
       expiryDate: 'Jun 2025',
-      credentialId: 'MS-ASA-2023-003',
-      logo: ''
+      credentialId: 'GCP-4158111',
+      logo: 'https://www.gstatic.com/devrel-devsite/prod/v2f6fb68338062e7c16672db62c4ab042dcb9bfbacf2fa51b6959426b203a4d8a/cloud/images/cloud-logo.svg'
+    },
+    {
+      name: '',
+      issuer: '',
+      date: 'July 2023',
+      expiryDate: 'July 2025',
+      credentialId: 'GCP-4373876',
+      logo: 'https://www.gstatic.com/devrel-devsite/prod/v2f6fb68338062e7c16672db62c4ab042dcb9bfbacf2fa51b6959426b203a4d8a/cloud/images/cloud-logo.svg'
+    },
+    {
+      name: '',
+      issuer: '',
+      date: 'June 2023',
+      expiryDate: 'June 2026',
+      credentialId: 'GCP-3814407',
+      logo: 'https://www.gstatic.com/devrel-devsite/prod/v2f6fb68338062e7c16672db62c4ab042dcb9bfbacf2fa51b6959426b203a4d8a/cloud/images/cloud-logo.svg'
+    },
+    {
+      name: '',
+      issuer: '',
+      date: 'Jun 2023',
+      expiryDate: 'Jun 2025',
+      credentialId: 'GCP-4158111',
+      logo: 'https://www.gstatic.com/devrel-devsite/prod/v2f6fb68338062e7c16672db62c4ab042dcb9bfbacf2fa51b6959426b203a4d8a/cloud/images/cloud-logo.svg'
     }
   ];
 }
