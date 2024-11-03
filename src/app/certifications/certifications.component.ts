@@ -19,13 +19,15 @@ interface Certification {
     <div class="certifications-container">
       <header>
         <h1>Professional Certifications</h1>
-        <a routerLink="/" class="back-link">← Back to Home</a>
+        <a routerLink="/" class="back-link">←Back to Home</a>
       </header>
 
       <div class="certifications-grid">
         <article class="certification-card" *ngFor="let cert of certifications">
           <div class="cert-header">
-            <img [src]="cert.logo" [alt]="cert.issuer + ' logo'" class="cert-logo">
+          <div><i class="fa-brands fa-google"></i></div>
+            <img [src]="cert.logo" [alt]=" + ' '" class="cert-logo">
+           
             <div class="cert-issuer">{{ cert.issuer }}</div>
           </div>
           
@@ -105,8 +107,7 @@ interface Certification {
     .cert-logo {
       width: 48px;
       height: 48px;
-      object-fit: contain;
-      margin-right: 1rem;
+      /* margin-right: 1rem; */
     }
 
     .cert-issuer {
@@ -155,7 +156,7 @@ export class CertificationsComponent {
       date: 'Jan 2023',
       expiryDate: 'Jan 2025',
       credentialId: 'GCP-PCA-2023-001',
-      logo: 'https://www.gstatic.com/devrel-devsite/prod/v2f6fb68338062e7c16672db62c4ab042dcb9bfbacf2fa51b6959426b203a4d8a/cloud/images/cloud-logo.svg'
+      logo: ''
     },
     {
       name: 'Digital Cloud Leader',
@@ -164,7 +165,6 @@ export class CertificationsComponent {
       expiryDate: 'June 2026',
       credentialId: 'aa0aea84ead54bb79364256778c2b7c8',
       logo: 'https://www.gstatic.com/devrel-devsite/prod/v2f6fb68338062e7c16672db62c4ab042dcb9bfbacf2fa51b6959426b203a4d8a/cloud/images/cloud-logo.svg'
-  
     },
     {
       name: 'Kubernetes',
@@ -189,7 +189,6 @@ export class CertificationsComponent {
       expiryDate: 'Oct 2026',
       credentialId: 'GCP-CSA-2023-002',
       logo: 'https://www.gstatic.com/devrel-devsite/prod/v2f6fb68338062e7c16672db62c4ab042dcb9bfbacf2fa51b6959426b203a4d8a/cloud/images/cloud-logo.svg'
-  
     },
     {
       name: 'Machine Learning',
