@@ -25,8 +25,8 @@ interface Certification {
       <div class="certifications-grid">
         <article class="certification-card" *ngFor="let cert of certifications">
           <div class="cert-header">
-          <div><i class="fa-brands fa-google"></i></div>
-            <img [src]="cert.logo" [alt]=" + ' '" class="cert-logo">
+          <div></div>
+            <img [src]="cert.logo" class="cert-logo">
            
             <div class="cert-issuer">{{ cert.issuer }}</div>
           </div>
@@ -113,6 +113,7 @@ interface Certification {
     .cert-issuer {
       color: #666;
       font-size: 0.9rem;
+      /* content: 'f1a0'; */
     }
 
     h3 {
