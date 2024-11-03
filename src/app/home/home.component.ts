@@ -16,15 +16,15 @@ import { RouterLink } from '@angular/router';
       <section class="features">
         <div class="feature-card" routerLink="/projects">
           <h3 class="FP-btn">Projects</h3>
-          <p classs="fpg-text">read more</p>
+          <p classs="fpg-text">see more</p>
         </div>
         <div class="feature-card" routerLink="/skills">
           <h3 class="FP-btn">Skills</h3>
-          <p classs="fpg-text">read more</p>
+          <p classs="fpg-text">see more</p>
         </div>
         <div class="feature-card" routerLink="/certifications">
           <h3 class="FP-btn">Certifications</h3>
-          <p classs="fpg-text">read more</p>
+          <p classs="fpg-text">see more</p>
         </div>
         <div class="feature-card" routerLink="/cv">
           <h3 class="FP-btn">CV</h3>
