@@ -28,7 +28,7 @@ interface Certification {
           <div></div>
             <img [src]="cert.logo" class="cert-logo">
            
-            <div class="cert-issuer">{{ cert.issuer }}</div>
+           <div class="cert-issuer">{{ cert.issuer }}</div>
           </div>
           
           <h3>{{ cert.name }}</h3>
@@ -105,15 +105,15 @@ interface Certification {
     }
 
     .cert-logo {
-      width: 48px;
-      height: 48px;
-      /* margin-right: 1rem; */
+      width: 24px;
+      height: 24px;
     }
 
     .cert-issuer {
       color: #666;
       font-size: 0.9rem;
-      /* content: 'f1a0'; */
+      margin-left: 1rem;
+      float: left;
     }
 
     h3 {
@@ -153,75 +153,75 @@ export class CertificationsComponent {
   certifications: Certification[] = [
     {
       name: 'Google Professional Cloud Architect',
-      issuer: '',
+      issuer: 'Google',
       date: 'Jan 2023',
       expiryDate: 'Jan 2025',
       credentialId: 'GCP-PCA-2023-001',
-      logo: ''
+      logo: '/assets/google.svg'
     },
     {
       name: 'Digital Cloud Leader',
-      issuer: '',
+      issuer: 'Google',
       date: 'June 2024',
       expiryDate: 'June 2026',
       credentialId: 'aa0aea84ead54bb79364256778c2b7c8',
-      logo: 'https://www.gstatic.com/devrel-devsite/prod/v2f6fb68338062e7c16672db62c4ab042dcb9bfbacf2fa51b6959426b203a4d8a/cloud/images/cloud-logo.svg'
+      logo: '/assets/google.svg'
     },
     {
       name: 'Kubernetes',
-      issuer: '',
+      issuer: 'Google',
       date: 'Aug 2024',
       expiryDate: 'Aug 2026',
       credentialId: 'GCP-3993335',
-      logo: 'https://www.gstatic.com/devrel-devsite/prod/v2f6fb68338062e7c16672db62c4ab042dcb9bfbacf2fa51b6959426b203a4d8a/cloud/images/cloud-logo.svg'
+      logo: '/assets/google.svg'
     },
     {
       name: 'Google Professional Cloud Architect',
-      issuer: 'Cloud',
+      issuer: 'Google',
       date: 'Jan 2023',
       expiryDate: 'Jan 2025',
       credentialId: 'GCP-PCA-2023-001',
-      logo: 'https://www.gstatic.com/devrel-devsite/prod/v2f6fb68338062e7c16672db62c4ab042dcb9bfbacf2fa51b6959426b203a4d8a/cloud/images/cloud-logo.svg'
+      logo: '/assets/google.svg'
     },
     {
       name: 'Terraform',
-      issuer: '',
+      issuer: 'Google',
       date: 'Oct 2024',
       expiryDate: 'Oct 2026',
       credentialId: 'GCP-CSA-2023-002',
-      logo: 'https://www.gstatic.com/devrel-devsite/prod/v2f6fb68338062e7c16672db62c4ab042dcb9bfbacf2fa51b6959426b203a4d8a/cloud/images/cloud-logo.svg'
+      logo: '/assets/google.svg' 
     },
     {
       name: 'Machine Learning',
-      issuer: '',
+      issuer: 'Google',
       date: 'July 2023',
       expiryDate: 'Jun 2025',
       credentialId: 'GCP-4232331',
-      logo: 'https://www.gstatic.com/devrel-devsite/prod/v2f6fb68338062e7c16672db62c4ab042dcb9bfbacf2fa51b6959426b203a4d8a/cloud/images/cloud-logo.svg'
+      logo: '/assets/google.svg' 
     },
     {
       name: 'Tensorflow on Google Cloud',
-      issuer: '',
+      issuer: 'Google',
       date: 'July 2023',
       expiryDate: 'July 2025',
       credentialId: 'GCP-4373876',
-      logo: 'https://www.gstatic.com/devrel-devsite/prod/v2f6fb68338062e7c16672db62c4ab042dcb9bfbacf2fa51b6959426b203a4d8a/cloud/images/cloud-logo.svg'
+      logo: '/assets/google.svg' 
     },
     {
       name: 'Application Development in Cloud Run',
-      issuer: '',
+      issuer: 'Google',
       date: 'June 2023',
       expiryDate: 'June 2026',
       credentialId: 'GCP-3814407',
-      logo: 'https://www.gstatic.com/devrel-devsite/prod/v2f6fb68338062e7c16672db62c4ab042dcb9bfbacf2fa51b6959426b203a4d8a/cloud/images/cloud-logo.svg'
+      logo: '/assets/google.svg'  
     },
     {
       name: 'Google Cloud Big Data & Machine Learning Fundamentals',
-      issuer: '',
+      issuer: 'Google',
       date: 'Jun 2023',
       expiryDate: 'Jun 2025',
       credentialId: 'GCP-4158111',
-      logo: 'https://www.gstatic.com/devrel-devsite/prod/v2f6fb68338062e7c16672db62c4ab042dcb9bfbacf2fa51b6959426b203a4d8a/cloud/images/cloud-logo.svg'
+      logo: '/assets/google.svg' 
     },
     {
       name: '',
@@ -229,15 +229,14 @@ export class CertificationsComponent {
       date: 'July 2023',
       expiryDate: 'July 2025',
       credentialId: 'GCP-4373876',
-      logo: 'https://www.gstatic.com/devrel-devsite/prod/v2f6fb68338062e7c16672db62c4ab042dcb9bfbacf2fa51b6959426b203a4d8a/cloud/images/cloud-logo.svg'
-    },
+      logo: '/assets/google.svg' },
     {
       name: '',
       issuer: '',
       date: 'June 2023',
       expiryDate: 'June 2026',
       credentialId: 'GCP-3814407',
-      logo: 'https://www.gstatic.com/devrel-devsite/prod/v2f6fb68338062e7c16672db62c4ab042dcb9bfbacf2fa51b6959426b203a4d8a/cloud/images/cloud-logo.svg'
+      logo: ''  
     },
     {
       name: '',
@@ -245,7 +244,7 @@ export class CertificationsComponent {
       date: 'Jun 2023',
       expiryDate: 'Jun 2025',
       credentialId: 'GCP-4158111',
-      logo: 'https://www.gstatic.com/devrel-devsite/prod/v2f6fb68338062e7c16672db62c4ab042dcb9bfbacf2fa51b6959426b203a4d8a/cloud/images/cloud-logo.svg'
+      logo: ''  
     }
   ];
 }
