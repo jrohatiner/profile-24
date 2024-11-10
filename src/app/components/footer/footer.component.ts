@@ -22,6 +22,7 @@ import { SocialComponent } from '../social/social.component';
       bottom: 0;
       width: 100%;
       box-shadow: 0 -2px 4px rgba(0,0,0,0.1);
+      margin-top: 1rem;
     }
 
     .footer-content {

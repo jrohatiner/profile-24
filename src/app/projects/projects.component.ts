@@ -64,30 +64,6 @@ import { RouterLink } from '@angular/router';
       margin: 0 auto;
       padding: 2rem;
     }
-
-    header {
-      margin-bottom: 3rem;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-
-    h1 {
-      font-size: 2.5rem;
-      color: #1976d2;
-    }
-
-    .back-link {
-      color: #666;
-      text-decoration: none;
-      font-size: 1.1rem;
-      transition: color 0.3s ease;
-    }
-
-    .back-link:hover {
-      color: #1976d2;
-    }
-
     .projects-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -101,6 +77,9 @@ import { RouterLink } from '@angular/router';
       box-shadow: 0 2px 4px rgba(0,0,0,0.1);
       transition: transform 0.3s ease;
     }
+    article.project-card {
+      margin-bottom: 6rem;
+  }
 
     .project-card:hover {
       transform: translateY(-5px);

@@ -57,29 +57,6 @@ interface Certification {
       padding: 2rem;
     }
 
-    header {
-      margin-bottom: 3rem;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-
-    h1 {
-      font-size: 2.5rem;
-      color: #1976d2;
-    }
-
-    .back-link {
-      color: #666;
-      text-decoration: none;
-      font-size: 1.1rem;
-      transition: color 0.3s ease;
-    }
-
-    .back-link:hover {
-      color: #1976d2;
-    }
-
     .certifications-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -93,6 +70,9 @@ interface Certification {
       box-shadow: 0 2px 4px rgba(0,0,0,0.1);
       transition: transform 0.3s ease;
     }
+    article.certification-card {
+      margin-bottom: 6rem;
+  }
 
     .certification-card:hover {
       transform: translateY(-5px);

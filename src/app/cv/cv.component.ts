@@ -51,30 +51,6 @@ import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
       margin: 0 auto;
       padding: 2rem;
     }
-
-    header {
-      margin-bottom: 3rem;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-
-    h1 {
-      font-size: 2.5rem;
-      color: #1976d2;
-    }
-
-    .back-link {
-      color: #666;
-      text-decoration: none;
-      font-size: 1.1rem;
-      transition: color 0.3s ease;
-    }
-
-    .back-link:hover {
-      color: #1976d2;
-    }
-
     .cv-actions {
       display: flex;
       gap: 1rem;

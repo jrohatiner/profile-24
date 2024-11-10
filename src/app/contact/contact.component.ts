@@ -132,6 +132,9 @@ import { FormBuilder, FormGroup, ReactiveFormsModule, Validators } from '@angula
       grid-template-columns: 1fr 2fr;
       gap: 3rem;
     }
+    form.contact-form {
+      margin-bottom: 4.5rem;
+  }
 
     @media (max-width: 768px) {
       .contact-content {

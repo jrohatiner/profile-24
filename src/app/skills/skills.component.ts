@@ -48,33 +48,11 @@ interface SkillCategory {
       padding: 2rem;
     }
 
-    header {
-      margin-bottom: 3rem;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-
-    h1 {
-      font-size: 2.5rem;
-      color: #1976d2;
-    }
-
-    .back-link {
-      color: #666;
-      text-decoration: none;
-      font-size: 1.1rem;
-      transition: color 0.3s ease;
-    }
-
-    .back-link:hover {
-      color: #1976d2;
-    }
-
     .skills-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
       gap: 2rem;
+      margin-bottom: 8rem;
     }
 
     .skill-category {
@@ -148,6 +126,60 @@ export class SkillsComponent {
         { name: 'Python', level: 80 },
         { name: 'Java', level: 75 },
         { name: 'SQL', level: 85 }
+      ]
+    },
+    {
+      name: 'Cloud & DevOps',
+      skills: [
+        { name: 'AWS', level: 82 },
+        { name: 'Docker', level: 78 },
+        { name: 'Kubernetes', level: 75 },
+        { name: 'CI/CD', level: 80 }
+      ]
+    },
+    {
+      name: 'Cloud & DevOps',
+      skills: [
+        { name: 'AWS', level: 82 },
+        { name: 'Docker', level: 78 },
+        { name: 'Kubernetes', level: 75 },
+        { name: 'CI/CD', level: 80 }
+      ]
+    },
+    {
+      name: 'Cloud & DevOps',
+      skills: [
+        { name: 'AWS', level: 82 },
+        { name: 'Docker', level: 78 },
+        { name: 'Kubernetes', level: 75 },
+        { name: 'CI/CD', level: 80 }
+      ]
+    },
+    {
+      name: 'Cloud & DevOps',
+      skills: [
+        { name: 'AWS', level: 82 },
+        { name: 'Docker', level: 78 },
+        { name: 'Kubernetes', level: 75 },
+        { name: 'CI/CD', level: 80 }
+      ]
+    },
+    {
+      name: 'Cloud & DevOps',
+      skills: [
+        { name: 'AWS', level: 82 },
+        { name: 'Docker', level: 78 },
+        { name: 'Kubernetes', level: 75 },
+        { name: 'CI/CD', level: 80 }
+      ]
+    },
+    {
+      name: 'Cloud & DevOps',
+      skills: [
+        { name: 'AWS', level: 82 },
+        { name: 'Docker', level: 78 },
+        { name: 'Kubernetes', level: 75 },
+        { name: 'CI/CD', level: 80 }
       ]
     },
     {
