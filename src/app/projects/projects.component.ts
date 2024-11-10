@@ -55,6 +55,46 @@ import { RouterLink } from '@angular/router';
           </div>
           <a href="#" class="project-link">View Project →</a>
         </article>
+        <article class="project-card">
+          <h3>Project 4</h3>
+          <p class="project-type">Full Stack Application</p>
+          <p class="project-description">
+            A comprehensive web application built with Angular and Node.js
+          </p>
+          <div class="tech-stack">
+            <span class="tech-tag">Angular</span>
+            <span class="tech-tag">Node.js</span>
+            <span class="tech-tag">MongoDB</span>
+          </div>
+          <a href="#" class="project-link">View Project →</a>
+        </article>
+        <article class="project-card">
+          <h3>Project 5</h3>
+          <p class="project-type">Cloud Architecture</p>
+          <p class="project-description">
+            Serverless application deployed on Google Cloud Platform
+          </p>
+          <div class="tech-stack">
+            <span class="tech-tag">GCP</span>
+            <span class="tech-tag">Cloud Functions</span>
+            <span class="tech-tag">Firebase</span>
+          </div>
+          <a href="#" class="project-link">View Project →</a>
+        </article>
+
+        <article class="project-card">
+          <h3>Project 6</h3>
+          <p class="project-type">Mobile Application</p>
+          <p class="project-description">
+            Cross-platform mobile app built with Flutter
+          </p>
+          <div class="tech-stack">
+            <span class="tech-tag">Flutter</span>
+            <span class="tech-tag">Dart</span>
+            <span class="tech-tag">Firebase</span>
+          </div>
+          <a href="#" class="project-link">View Project →</a>
+        </article>
       </div>
     </div>
   `,
