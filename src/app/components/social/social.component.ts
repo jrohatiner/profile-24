@@ -7,13 +7,13 @@ import { CommonModule } from '@angular/common';
   imports: [CommonModule],
   template: `
     <div class="social-icons">
-      <a href="https://github.com" target="_blank" class="social-icon" title="GitHub">
+      <a href="https://github.com/jrohatiner" target="_blank" class="social-icon" title="GitHub">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
           <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
         </svg>
       </a>
       
-      <a href="https://linkedin.com" target="_blank" class="social-icon" title="LinkedIn">
+      <a href="https://www.linkedin.com/in/shecodetheweb/" target="_blank" class="social-icon" title="LinkedIn">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
           <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
           <rect x="2" y="9" width="4" height="12"></rect>
@@ -21,7 +21,7 @@ import { CommonModule } from '@angular/common';
         </svg>
       </a>
       
-      <a href="https://x.com" target="_blank" class="social-icon" title="X (Twitter)">
+      <a href="https://x.com/AChickAndAClick" target="_blank" class="social-icon" title="X (Twitter)">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
           <path d="M 2.8671875 3 L 9.7363281 12.818359 L 2.734375 21 L 5.3808594 21 L 10.919922 14.509766 L 15.460938 21 L 21.371094 21 L 14.173828 10.697266 L 20.744141 3 L 18.097656 3 L 12.996094 8.9980469 L 8.8066406 3 L 2.8671875 3 z"></path>
         </svg>

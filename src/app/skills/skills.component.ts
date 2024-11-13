@@ -19,7 +19,7 @@ interface SkillCategory {
   template: `
     <div class="skills-container">
       <header>
-        <h1>Skills & Expertise</h1>
+        <h1>Skills</h1>
         <a routerLink="/" class="back-link">← Back to Home</a>
       </header>
 
@@ -113,83 +113,52 @@ export class SkillsComponent {
     {
       name: 'Frontend Development',
       skills: [
-        { name: 'Angular', level: 90 },
-        { name: 'React', level: 85 },
-        { name: 'TypeScript', level: 88 },
-        { name: 'HTML/CSS', level: 95 }
+        { name: 'Angular', level: 100 },
+        { name: 'React', level: 100 },
+        { name: 'TypeScript', level: 100 },
+        { name: 'HTML/CSS', level: 100 },
+        { name: 'Javascript', level: 100 },
+        { name: 'API', level: 100 }
       ]
     },
     {
       name: 'Backend Development',
       skills: [
-        { name: 'Node.js', level: 85 },
-        { name: 'Python', level: 80 },
-        { name: 'Java', level: 75 },
-        { name: 'SQL', level: 85 }
+        { name: 'Node.js', level: 100 },
+        { name: 'Python', level: 70 },
+        { name: 'SQL', level: 85 },
+        { name: 'Google Cloud Platform', level: 100 },
+        { name: 'AWS', level: 100 },
+        { name: 'Postgres', level: 100 },
+        { name: 'SQLite', level: 100 },
+        { name: 'Docker', level: 100 },
+        { name: 'Kubernetes', level: 100 },
+        { name: 'CI/CD', level: 100 },
+        { name: 'Git', level: 100 }
+        
       ]
     },
     {
-      name: 'Cloud & DevOps',
+      name: 'Testing',
       skills: [
-        { name: 'AWS', level: 82 },
-        { name: 'Docker', level: 78 },
-        { name: 'Kubernetes', level: 75 },
-        { name: 'CI/CD', level: 80 }
+        { name: 'Jasmine', level: 80 },
+        { name: 'Mocha', level: 80 },
+        { name: 'Karma', level: 80 },
+        { name: 'Cypress', level: 100 }
       ]
     },
     {
-      name: 'Cloud & DevOps',
+      name: 'Soft Skills',
       skills: [
-        { name: 'AWS', level: 82 },
-        { name: 'Docker', level: 78 },
-        { name: 'Kubernetes', level: 75 },
-        { name: 'CI/CD', level: 80 }
+        { name: 'Leadership', level: 100 },
+        { name: 'Collaboration', level: 100 },
+        { name: 'Adaptability', level: 100 },
+        { name: 'Google Certified Public Speaker', level: 100 },
+        { name: 'Creativity', level: 100 },
+        { name: 'Critical Thinking', level: 100 },
+        { name: 'Time Management', level: 100 },
+        { name: 'Attention To Detail', level: 100 }
       ]
     },
-    {
-      name: 'Cloud & DevOps',
-      skills: [
-        { name: 'AWS', level: 82 },
-        { name: 'Docker', level: 78 },
-        { name: 'Kubernetes', level: 75 },
-        { name: 'CI/CD', level: 80 }
-      ]
-    },
-    {
-      name: 'Cloud & DevOps',
-      skills: [
-        { name: 'AWS', level: 82 },
-        { name: 'Docker', level: 78 },
-        { name: 'Kubernetes', level: 75 },
-        { name: 'CI/CD', level: 80 }
-      ]
-    },
-    {
-      name: 'Cloud & DevOps',
-      skills: [
-        { name: 'AWS', level: 82 },
-        { name: 'Docker', level: 78 },
-        { name: 'Kubernetes', level: 75 },
-        { name: 'CI/CD', level: 80 }
-      ]
-    },
-    {
-      name: 'Cloud & DevOps',
-      skills: [
-        { name: 'AWS', level: 82 },
-        { name: 'Docker', level: 78 },
-        { name: 'Kubernetes', level: 75 },
-        { name: 'CI/CD', level: 80 }
-      ]
-    },
-    {
-      name: 'Cloud & DevOps',
-      skills: [
-        { name: 'AWS', level: 82 },
-        { name: 'Docker', level: 78 },
-        { name: 'Kubernetes', level: 75 },
-        { name: 'CI/CD', level: 80 }
-      ]
-    }
   ];
 }

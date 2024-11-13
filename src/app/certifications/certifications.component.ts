@@ -203,28 +203,6 @@ export class CertificationsComponent {
       credentialId: 'GCP-4158111',
       logo: '/assets/google.svg' 
     },
-    {
-      name: '',
-      issuer: '',
-      date: 'July 2023',
-      expiryDate: 'July 2025',
-      credentialId: 'GCP-4373876',
-      logo: '/assets/google.svg' },
-    {
-      name: '',
-      issuer: '',
-      date: 'June 2023',
-      expiryDate: 'June 2026',
-      credentialId: 'GCP-3814407',
-      logo: ''  
-    },
-    {
-      name: '',
-      issuer: '',
-      date: 'Jun 2023',
-      expiryDate: 'Jun 2025',
-      credentialId: 'GCP-4158111',
-      logo: ''  
-    }
+    
   ];
 }
