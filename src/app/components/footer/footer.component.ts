@@ -7,12 +7,14 @@ import { SocialComponent } from '../social/social.component';
   standalone: true,
   imports: [CommonModule, SocialComponent],
   template: `
+  <div class="footer-container">
     <footer class="footer">
       <div class="footer-content">
         <p class="copyright">© 2024 Judith Rohatiner. All rights reserved.</p>
         <app-social></app-social>
       </div>
     </footer>
+    </div>
   `,
   styles: [`
     .footer {
@@ -23,6 +25,9 @@ import { SocialComponent } from '../social/social.component';
       width: 100%;
       box-shadow: 0 -2px 4px rgba(0,0,0,0.1);
       margin-top: 1rem;
+    }
+    .footer-container {
+      margin-top: 4.5rem;
     }
 
     .footer-content {

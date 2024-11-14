@@ -9,7 +9,7 @@ import { RouterLink } from '@angular/router';
   template: `
     <div class="projects-container">
       <header>
-        <h1>My Projects</h1>
+        <h1>Projects</h1>
         <a routerLink="/" class="back-link">← Back to Home</a>
       </header>
 
@@ -26,7 +26,7 @@ import { RouterLink } from '@angular/router';
             <span class="tech-tag">Postgres</span>
             <span class="tech-tag">Nebular</span>
           </div>
-          <a href="https://k16solutions.com/resources/product/scaffold-datax/" class="project-link">View Project →</a>
+          <a href="https://k16solutions.com/resources/product/scaffold-datax/" class="project-link" target="_blank" rel="noopener noreferrer">View Project →</a>
         </article>
 
         <article class="project-card">
@@ -42,7 +42,7 @@ import { RouterLink } from '@angular/router';
             <span class="tech-tag">SQL</span>
             <span class="tech-tag">Cloud Functions</span>
           </div>
-          <a href="https://vindati.com/" class="project-link">View Project →</a>
+          <a href="https://vindati.com/" class="project-link" target="_blank" rel="noopener noreferrer">View Project →</a>
         </article>
 
         <article class="project-card">
@@ -56,7 +56,7 @@ import { RouterLink } from '@angular/router';
             <span class="tech-tag">SQL</span>
             <span class="tech-tag">Javascript</span>
           </div>
-          <a href="https://drive.google.com/file/d/1MsX6_5tFicAJ4dTNdlRBJ_L9pjxWLdtE/view?usp=drive_link" class="project-link">View Project →</a>
+          <a href="https://drive.google.com/file/d/1MsX6_5tFicAJ4dTNdlRBJ_L9pjxWLdtE/view?usp=drive_link" class="project-link" target="_blank" rel="noopener noreferrer">View Project →</a>
         </article>
         <article class="project-card">
           <h3>DevFest 2023 Accessibility Workshop</h3>
@@ -72,7 +72,7 @@ import { RouterLink } from '@angular/router';
             <span class="tech-tag">CSS</span>
             <span class="tech-tag">WebAim</span>
           </div>
-          <a href="https://docs.google.com/presentation/d/e/2PACX-1vTeA-yiAzjtztAH8A8pYpMmzL6WY5yX9CfFkxpkr_GRO8NbbE-e77hbmo4DtL5ZTw/pub?start=true&loop=false&delayms=3000" class="project-link">View Project →</a>
+          <a href="https://docs.google.com/presentation/d/e/2PACX-1vTeA-yiAzjtztAH8A8pYpMmzL6WY5yX9CfFkxpkr_GRO8NbbE-e77hbmo4DtL5ZTw/pub?start=true&loop=false&delayms=3000" class="project-link" target="_blank" rel="noopener noreferrer">View Project →</a>
         </article>
         <article class="project-card">
           <h3>DevFest Orlando 2024</h3>
@@ -86,7 +86,7 @@ import { RouterLink } from '@angular/router';
             <span class="tech-tag">Angular</span>
             <span class="tech-tag">Bash</span>
           </div>
-          <a href="https://docs.google.com/presentation/d/e/2PACX-1vQmh8tPYlIjbDX31Dug59A85ptfUL82pZMbseRbuxvW9OYjtSdGdhmdpsRbd7XDFg/pub?start=true&loop=false&delayms=3000" class="project-link">View Project →</a>
+          <a href="https://docs.google.com/presentation/d/e/2PACX-1vQmh8tPYlIjbDX31Dug59A85ptfUL82pZMbseRbuxvW9OYjtSdGdhmdpsRbd7XDFg/pub?start=true&loop=false&delayms=3000" class="project-link" target="_blank" rel="noopener noreferrer">View Project →</a>
         </article>
 
         <article class="project-card">
@@ -103,7 +103,7 @@ import { RouterLink } from '@angular/router';
           <span class="tech-tag">CSS</span>
           <span class="tech-tag">WebAim</span>
           </div>
-          <a href="https://docs.google.com/presentation/d/e/2PACX-1vTeA-yiAzjtztAH8A8pYpMmzL6WY5yX9CfFkxpkr_GRO8NbbE-e77hbmo4DtL5ZTw/pub?start=true&loop=false&delayms=3000" class="project-link">View Project →</a>
+          <a href="https://docs.google.com/presentation/d/e/2PACX-1vTeA-yiAzjtztAH8A8pYpMmzL6WY5yX9CfFkxpkr_GRO8NbbE-e77hbmo4DtL5ZTw/pub?start=true&loop=false&delayms=3000" class="project-link" target="_blank" rel="noopener noreferrer">View Project →</a>
         </article>
       </div>
     </div>

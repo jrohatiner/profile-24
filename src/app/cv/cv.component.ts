@@ -9,7 +9,7 @@ import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
   imports: [CommonModule, RouterLink],
   template: `
     <div class="cv-container">
-      <header>
+      <header class="cv">
         <h1>Curriculum Vitae</h1>
         <a routerLink="/" class="back-link">← Back to Home</a>
       </header>
@@ -42,14 +42,17 @@ import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
             allowfullscreen
           ></iframe>
         </div>
-      </div>
+      </div><br><br>
     </div>
   `,
   styles: [`
     .cv-container {
       max-width: 1200px;
-      margin: 0 auto;
+      margin: 0 auto 4rem;
       padding: 2rem;
+    }
+    header.cv{
+      margin-bottom: 0;
     }
     .cv-actions {
       display: flex;
@@ -101,6 +104,7 @@ import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
     .pdf-container {
       width: 100%;
       height: 100%;
+      margin-bottom: 2rem;
     }
 
     iframe {
