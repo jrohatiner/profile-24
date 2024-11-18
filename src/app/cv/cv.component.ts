@@ -11,7 +11,7 @@ import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
     <div class="cv-container">
       <header class="cv">
         <h1>Curriculum Vitae</h1>
-        <a routerLink="/" class="back-link">← Back to Home</a>
+        <a routerLink="/" class="back-link">← Home</a>
       </header>
 
       <div class="cv-actions">

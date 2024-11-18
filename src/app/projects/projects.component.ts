@@ -10,7 +10,7 @@ import { RouterLink } from '@angular/router';
     <div class="projects-container">
       <header>
         <h1>Projects</h1>
-        <a routerLink="/" class="back-link">← Back to Home</a>
+        <a routerLink="/" class="back-link">← Home</a>
       </header>
 
       <div class="projects-grid">

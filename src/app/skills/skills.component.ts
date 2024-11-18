@@ -20,7 +20,7 @@ interface SkillCategory {
     <div class="skills-container">
       <header>
         <h1>Skills</h1>
-        <a routerLink="/" class="back-link">← Back to Home</a>
+        <a routerLink="/" class="back-link">← Home</a>
       </header>
 
       <div class="skills-grid">
