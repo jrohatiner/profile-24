@@ -45,7 +45,7 @@ interface Certification {
             </div>
           </div>
 
-          <a href="https://www.cloudskillsboost.google/public_profiles/780e6916-6de8-4795-804e-dbbb5832b15a" class="verify-link">Verify Certificate →</a>
+          <a href="https://www.cloudskillsboost.google/public_profiles/780e6916-6de8-4795-804e-dbbb5832b15a" class="verify-link" target="_blank" rel="noopener noreferrer">Verify Certificate →</a>
         </article>
       </div>
     </div>
