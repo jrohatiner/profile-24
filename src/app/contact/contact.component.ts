@@ -37,7 +37,8 @@ import { FormBuilder, FormGroup, ReactiveFormsModule, Validators } from '@angula
           </div>
         </div>
 
-       <form name="contact" netlify [formGroup]="contactForm" (ngSubmit)="onSubmit()" class="contact-form"> 
+  
+       <form name="contact" method="POST" data-netlify="true" [formGroup]="contactForm" (ngSubmit)="onSubmit()" class="contact-form"> 
        <!--  <form name="contact" netlify> -->
           <div class="form-group">
             <label for="name">Name</label>
@@ -96,7 +97,7 @@ import { FormBuilder, FormGroup, ReactiveFormsModule, Validators } from '@angula
           </button>
         </form>
       </div>
-    </div>
+    <!-- </div> -->
   `,
   styles: [`
     .contact-container {
@@ -268,11 +269,13 @@ export class ContactComponent {
   onSubmit() {
     if (this.contactForm.valid) {
       this.isSubmitting = true;
+      console.log(this.contactForm.value)
       
       // Simulate API call
       setTimeout(() => {
         console.log('Form submitted:', this.contactForm.value);
         this.isSubmitting = false;
+        alert('Form submitted successfully!');
         this.contactForm.reset();
       }, 1500);
     }
