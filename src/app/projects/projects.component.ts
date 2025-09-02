@@ -26,7 +26,7 @@ import { RouterLink } from '@angular/router';
             <span class="tech-tag">Postgres</span>
             <span class="tech-tag">Nebular</span>
           </div>
-          <a href="https://k16solutions.com/resources/product/scaffold-datax/" class="project-link" target="_blank" rel="noopener noreferrer">View Project →</a>
+          <a href="https://k16solutions.com/solutions/datax/" class="project-link" target="_blank" rel="noopener noreferrer">View Project →</a>
         </article>
 
         <article class="project-card">
